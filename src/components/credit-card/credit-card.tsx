@@ -15,11 +15,11 @@ export class CreditCard {
   render() {
     return (
       <Host>
-        <a class="card-wrapper">
+        <a href="/" class="card-wrapper">
           <div class={`front ${this.gradient}`}>
             <div class="row">
               <p>Credit</p>
-              <img src="https://raw.githubusercontent.com/a-giuliano/credit-card-css/master/src/assets/mastercard.png" />
+              <img src="https://raw.githubusercontent.com/a-giuliano/credit-card-css/master/src/assets/mastercard.png" alt="logo" />
             </div>
             <div class="row">
               {this.cardNumber.split(' ').map(number => (
